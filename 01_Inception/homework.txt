@@ -1,0 +1,38 @@
+(1)  What is CDN? Why we use CDN? When to use CDN?
+(2) What is crossorigin? why we use crossorigin? when use crossorigin?
+
+Note:   <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script> 
+--> This URL is Core of React
+          <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+--> This URL is for DOM Operations
+
+--> React.createEelement take three arguments
+--> Thrird arugument is whatever put in first arguments write in third argument.
+   ex. ("h1",{},"Hello world");
+--> First Argument "h1": This Place for Argument is used for define Tag
+--> Second Argument {} : This Object is place when you give an Attribute to your Tag
+--> Third Argument "Hello World" : Use This Argument as what text is you write inside 
+-->React.createEelement is oen type of Object not h1 tag which we defined.
+
+(3) What is React.createlement? Why we use? When we use?
+--> react element is Normal js object,
+--> Props are children + Attriubut we pass
+props
+: 
+children
+: 
+"Hello React World"
+id
+: 
+"heading"
+xyz
+: 
+"abc"
+
+--> Render is a method to tke object and put it into heading and puting into h1 tag
+
+--> Converting object to h1 tag and put it itno heading tag
+
+--> ReactElement(object) => HTML(Borwser Understand) Means ReactElemnt is not create any other html tag, it is create object
+
+(4) What is crossOrigin? Why we write cross origin?
