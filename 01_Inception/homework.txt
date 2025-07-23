@@ -36,3 +36,21 @@ xyz
 --> ReactElement(object) => HTML(Borwser Understand) Means ReactElemnt is not create any other html tag, it is create object
 
 (4) What is crossOrigin? Why we write cross origin?
+
+
+(5) What is npm?
+-> NPM does not have full form. It is manages packages but it does not stand for nnode  package  manager.
+
+(6) What is Package.json?
+-> It is basically configuration for our npm
+
+(7) Why we use Package.json?
+->
+
+(8) Most Important package in our project is what? --> Bundler
+
+(9) What is Bundler?
+-> HTML,CSS,JS need to bundle together,while code need is be bundle (minified/clean) together.
+-> Webpack, Parcer, Vite these are bundlers.
+-> It job is bundle/packages your app together for shift to production.
+-> Create-react-app is use behind use Webpack bundler.
