@@ -43,6 +43,8 @@ xyz
 
 (6) What is Package.json?
 -> It is basically configuration for our npm
+-> Keeps approx version of package or dependency
+
 
 (7) Why we use Package.json?
 ->
@@ -54,3 +56,67 @@ xyz
 -> Webpack, Parcer, Vite these are bundlers.
 -> It job is bundle/packages your app together for shift to production.
 -> Create-react-app is use behind use Webpack bundler.
+-> In this project we use Parcel
+
+
+-> For Install Dependancy/ Bundler (Here Parcel) command is npm install -D Parcel
+
+(10) What is npm install -D parcel?  why -D Use?
+-> npm : command (It is package Manager)
+-> install: for installation
+-> parcel : Package name
+-> -D :
+-> There is two type of Dependencies(packegees)
+ (1)  Dev Dependancy :- It means it is generally required for our development phase.
+ (2) Normal Dependancy :- It means use in Production also
+
+ (11) What is the difference between Dependancy and Dev Dependancy??
+ ->
+
+-> Parcel is install as dev Dependancy because it is in development phase
+-> "parcel": ^2.15.4  --> ^ is known as caret
+-> ^:- This is will update version of parcel or any dependency automatically.(Minor Changes)
+-> ~:- This will install major version updates.
+-> 
+
+
+(12) What is the difference between ^ and ~ ?  (Interview Question)
+
+(13) What is package-lock.json?
+-> Keeps a track of exact version of theirr package
+
+(14) difference between packege.json vs package-lock.json  (Very IMP Question)
+
+(15) What is integrity? why hash?
+-> It is hash.
+-> Hash :- It is verified that whatever there right now in my machine. its same veersion in
+   Production.
+-> It keeps track of all the version. Exact version of all the dependency.
+
+
+(16) What is node module?
+-> This Node Modules contains all the code that we fetch from npm.
+-> Node Modules basicaly,kind of data base.
+-> Parcel as a project has its own dependency and those dependency can have it own Dependancy 
+   this is know as transitive dependency.
+-> Parcel uses babels and all oter libraries.
+
+(17) how is parcel manages this all things? how wee known parcel has dependecy?
+-> 
+
+--> Parcel has its own dependecy.All module in node module has its own dependecy.
+-> Node modules is collection of all dependecy.
+
+(18) Should i put all node js modiles put in Production or github?
+-> No.Put this in git-igonre file.
+
+(19) should i put my packon.json and packge-lock json on git? why?
+-> Yes. Packagee.json and package-lock .json maintain a note what all dependecy are project need.
+
+-> With use of packege.json and package-lock.json ,regenerate node modules.
+
+--> If you have packege.json and package-lock.json recreate all node modle even if it is deleted.
+
+-> whatever you can recreate or regenerate , do not put in github.
+
+->

@@ -1,8 +1,10 @@
 {
-  "name": "namste-react",
+  "name": "react",
   "version": "1.0.0",
-  "description": "Namaste-React",
-  "main": "index.js",
+  "description": "This is Namaste React by Akshay Saini",
+  "main": "App.js",
+  
+  
   "scripts": {
     "test": "jest"
   },
@@ -10,16 +12,14 @@
     "type": "git",
     "url": "git+https://github.com/Moksh5168/React-Practice.git"
   },
-  "keywords": [
-    "react",
-    "namaste",
-    "react",
-    "akshay"
-  ],
-  "author": "akshay saini",
+  "keywords": [],
+  "author": "Moksh Shah",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Moksh5168/React-Practice/issues"
   },
-  "homepage": "https://github.com/Moksh5168/React-Practice#readme"
+  "homepage": "https://github.com/Moksh5168/React-Practice#readme",
+  "devDependencies": {
+    "parcel": "^2.15.4"
+  }
 }
