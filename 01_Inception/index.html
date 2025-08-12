@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -10,10 +10,10 @@
   <h1>This is top of root</h1>
   <div id="root">
     <h1>Akashy is here</h1>
-    <!-- it is replace by parennts by render method in app.js file (not appended) -->
-    <!-- <h1>Hello World</h1> -->
+    it is replace by parennts by render method in app.js file (not appended)
+    <h1>Hello World</h1>
   </div>
-  <!-- <script>
+  <script>
    const heading =  document.createElement("h1");
    heading.innerHTML = "Hello World from Javascript";
 
@@ -21,16 +21,36 @@
   const root = document.getElementById("root");
   root.appendChild(heading);
 
-  </script> -->
+  </script>
   <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script> 
 <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
 
 <script src="../01_Inception/App.js">
 
-  // const heading = React.createElement("h1",{},"Hello World from React")
-  // const root = ReactDOM.createRoot(document.getElementById("root"));
-  // root.render(heading);
+  const heading = React.createElement("h1",{},"Hello World from React")
+  const root = ReactDOM.createRoot(document.getElementById("root"));
+  root.render(heading);
 </script>
 
 </body>
+</html> -->
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Namaste React</title>
+
+    <link rel="stylesheet" href="./index.css" />
+  </head>
+  <body>
+    <div id="root" class="root">
+      <h1>Not Rendered</h1>
+    </div>
+
+    <script type="module" src="App.js"></script>
+  </body>
 </html>
